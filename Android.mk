@@ -1,0 +1,32 @@
+#
+# Automatically generated file. DO NOT MODIFY
+#
+
+LOCAL_PATH := $(call my-dir)
+
+ifeq ($(TARGET_DEVICE),scout)
+
+$(call add-radio-file-sha1-checked,radio/apusys.img,c7b7480dca178e28d77b96afa320aaf10bdb3945)
+$(call add-radio-file-sha1-checked,radio/ccu.img,de1d0d8bfaff52a96f8d1c37a720eed083caa00a)
+$(call add-radio-file-sha1-checked,radio/connsys_bt.img,635d0f02911f3e5c3219a622b1620a9da4c48b62)
+$(call add-radio-file-sha1-checked,radio/connsys_gnss.img,95790bc00486ea89a4ac70d8036f936511e5841f)
+$(call add-radio-file-sha1-checked,radio/connsys_wifi.img,81942b7248ee5f2d57c9672a8fbb619c2bc5613d)
+$(call add-radio-file-sha1-checked,radio/dpm.img,9aac06cd775064c9a6ece3cf76f9527e6dbdb373)
+$(call add-radio-file-sha1-checked,radio/dtbo.img,ff1d2f27b8aa60f13655c7e3b9758cfe5418774f)
+$(call add-radio-file-sha1-checked,radio/efuse.img,551940ff5e40247d09f8ab0c0547ef1076ca6e96)
+$(call add-radio-file-sha1-checked,radio/gpueb.img,a987ded7ae553b6238d9c72f30299bdcee4b04b6)
+$(call add-radio-file-sha1-checked,radio/gz.img,f7b2398ec92600c179626d04bc46f025f0da371c)
+$(call add-radio-file-sha1-checked,radio/lk.img,f73a2773d9c7636dbb1ec04c2862168f5464cb0b)
+$(call add-radio-file-sha1-checked,radio/logo.img,f24e3396bd56b7c2bb6d60d0a3432131b9f0a084)
+$(call add-radio-file-sha1-checked,radio/mcf_ota.img,39a8d5e1cfa63190b3c936795733d0a80106f861)
+$(call add-radio-file-sha1-checked,radio/mcupm.img,acfa15711c7264f3eeadbb03c75bb5e483366a9f)
+$(call add-radio-file-sha1-checked,radio/modem.img,bd34fae18f62c3bbb0f5a8880632573418e12da0)
+$(call add-radio-file-sha1-checked,radio/pi_img.img,9bd8c6ed0da899737b1c095b5b3a4e4a76ed2048)
+$(call add-radio-file-sha1-checked,radio/preloader.img,5d322eb6c1cf3a3328099247764a0343731e3b3e)
+$(call add-radio-file-sha1-checked,radio/scp.img,f531af58d8040ee865d909d59767bd00bf13c922)
+$(call add-radio-file-sha1-checked,radio/spmfw.img,61a5bfc5bc548f71f3df16e2e99d5ea949252d32)
+$(call add-radio-file-sha1-checked,radio/sspm.img,2cdb6bfab3eb71ab8137f816f73e57add535ba3c)
+$(call add-radio-file-sha1-checked,radio/tee.img,7a03e068ad51fbc9bed13d60acebc1637a25b991)
+$(call add-radio-file-sha1-checked,radio/vcp.img,fc348d4e122098b2ba05e25f940c7ec906237ecf)
+
+endif
